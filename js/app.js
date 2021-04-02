@@ -57,7 +57,7 @@ function startGame(){
     openedCards = [];
 
     // shuffle deck
-    cards = shuffle(cards);
+    //cards = shuffle(cards);
     // remove all exisiting classes from each card
     for (var i = 0; i < cards.length; i++){
         deck.innerHTML = "";
